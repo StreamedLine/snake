@@ -1,0 +1,74 @@
+div.cont {
+  position: relative;
+  width: 843px;
+  margin: 0 auto;
+  text-align:center;
+}
+p#score {
+  font-family: sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  color: #00cc66;
+  font-weight: bold;
+}
+p#bonus {
+  position: absolute;
+  font-size: 1.25em;
+  top: 12px;
+  left: 45px;
+}
+#cvs {
+  border: 1px solid #ce8000;
+  padding: 0;
+}
+
+.joystick {
+  display: none;
+  width: 95%;
+  height: 480px;
+  background-color: orange;
+  margin: 15px auto;
+  text-align: center;
+  line-height: 90%;
+}
+.joystick > div {
+  width: 150px;
+  height: 150px;
+  background-color: lightgrey;
+}
+.joystick #left,
+.joystick #right {
+  display: inline-block;
+  width: 45%
+}
+.joystick #up,
+.joystick #down {
+  margin: 0 auto;
+  width: 98%;
+}
+.joystick span {
+  height: 140px;
+  line-height: 140px;
+  font-weight: bold;
+  font-size: 2em;
+}
+h6 {
+  margin: 10px;
+}
+
+#start {
+  width: 100px;
+  margin: 30px auto;
+  font-size:2em;
+  border: 3px solid #374D00;
+  border-radius: 20px;
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.wrapCheck {
+  width: 100%;
+  font-size: 1.5em;
+  text-align: center
+}

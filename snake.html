@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Snake</title>
+
+	<link rel="stylesheet" href="styles/style.css">
+
+</head>
+<body>
+	
+	<div class="cont">
+	  <p id='score' class='top'>Score:</p>
+	  <p id="bonus" class="flashing"></p>
+	  <canvas id="cvs" width="757" height="526"></canvas>
+	</div>
+
+	<div class="joystick">
+	  <div id="up"> <span>&uarr;</span> </div>
+	  <div id="left"> <span>&larr;</span> </div>
+	  <div id="right"> <span>&rarr;</span> </div>
+	  <div id="down"> <span>&darr;</span> </div>
+	  <h6>for touch screens only</h6>
+	</div>
+
+	<p id="start">Start!</p>
+
+	<div class="wrapCheck">
+	  <input type="checkbox" id='touchCheck'/>
+	  <label for="comp">I am using a touch-screen</label>
+	</div>
+
+
+<script src='scripts/script.js'></script>
+
+</body>
+</html>
